@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Alarm">
+
+    <com.google.android.material.tabs.TabLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabMode="scrollable">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="공장1" />
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="공장2" />
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="공장3" />
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="공장4" />
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="공장5" />
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="공장6" />
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="공장7" />
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="공장8" />
+
+    </com.google.android.material.tabs.TabLayout>
+
+
+
+
+</LinearLayout>
